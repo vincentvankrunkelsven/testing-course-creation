@@ -121,7 +121,7 @@ plot(good_movies$Run, good_movies$Rating, col = good_movies$Genre)
 # Test whether the function str is called with the correct argument, object
 # If it is not called, print something informative
 # If it is called, but called incorrectly, print something else
-test_function("str", args = "object",
+test_function("str", args = "bobject",
               not_called_msg = "You didn't call `str()`!",
               incorrect_msg = "You didn't call `str(object = ...)` with the correct argument, `object`.")
 
